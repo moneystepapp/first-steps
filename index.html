@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>MoneyStep</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <main class="container">
+
+    <img
+      src="MoneyStepLogo.svg"
+      alt="MoneyStep Logo"
+      class="logo"
+    />
+
+    <h1>
+      First Steps challenge coming soon.
+
+      <br /><br />
+    
+      $10 to get in.
+    
+      <br /><br />
+    
+      Be one of the First 100.
+    
+      <br /><br />
+    
+      Secure your spot here.
+    </h1>
+
+    <div class="counter-wrapper">
+      <span id="spots-left">100</span>
+      <span>spots left</span>
+    </div>
+
+    <form id="waitlist-form" class="waitlist-form">
+
+      <input
+        type="text"
+        name="name"
+        placeholder="Name"
+        required
+      />
+
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        required
+      />
+
+      <div class="row">
+
+        <input
+          type="text"
+          name="city"
+          placeholder="City"
+          required
+        />
+
+        <input
+          type="text"
+          name="state"
+          placeholder="State"
+          required
+        />
+
+      </div>
+
+      <input
+        type="tel"
+        name="phone"
+        placeholder="Phone Number (Optional)"
+      />
+
+      <input
+        type="text"
+        name="social"
+        placeholder="Social Media Handle (Optional)"
+      />
+
+      <button type="submit">
+        Reserve My Spot
+      </button>
+
+    </form>
+
+    <p id="success-message"></p>
+
+    <div class="socials">
+
+      <a href="https://www.instagram.com/moneystepapp/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="https://www.tiktok.com/@moneystepapp?lang=en" target="_blank">
+        <i class="fab fa-tiktok"></i>
+      </a>
+
+      <a href="https://x.com/MoneyStepApp" target="_blank">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+
+    </div>
+
+  </main>
+
+  <script type="module" src="script.js"></script>
+
+</body>
+</html>
