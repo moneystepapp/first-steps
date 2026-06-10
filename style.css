@@ -107,12 +107,12 @@ h1 {
 }
 
 .platform-label {
-  margin-bottom: 12px;
+  margin-bottom: 28px;
   font-size: 0.95rem;
   opacity: 0.9;
 }
 
-//*
+/*
 .platform-options {
   display: flex;
   gap: 24px;
@@ -133,7 +133,7 @@ h1 {
   padding: 0;
   accent-color: white;
 }
-*//
+*/
 
 /* =========================
    INPUTS
